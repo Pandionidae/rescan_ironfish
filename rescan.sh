@@ -1,6 +1,6 @@
-printf "sleep " 
-cd $HOME/
-source ~/.profile
+#!/bin/bash
+ cd $HOME/
+ source .profile
 ironfish wallet:rescan --reset
 
 printf "sleep 2" 
