@@ -1,5 +1,5 @@
 printf "sleep " 
-
+cd $HOME/
 source ~/.profile
 ironfish wallet:rescan --reset
 
