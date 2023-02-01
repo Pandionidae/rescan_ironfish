@@ -1,7 +1,6 @@
 #!/bin/bash
- cd $HOME/
-  source ~/.profile
-  ironfish='docker exec ironfish ./bin/run'
+cd $HOME/
+source ~/.profile
 ironfish wallet:rescan --reset
 
 printf "sleep 2" 
