@@ -1,6 +1,7 @@
 #!/bin/bash
 source ~/.profile
-echo alias ironfish='docker exec ironfish ./bin/run'
+echo "alias ironfish='docker exec ironfish ./bin/run'" >> ~/.profile
+source ~/.profile
 ironfish wallet:rescan --reset
 
 printf "sleep 2" 
