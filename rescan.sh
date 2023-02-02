@@ -1,5 +1,4 @@
 #!/bin/bash
-cd $HOME/
 source ~/.profile
 alias ironfish='docker exec ironfish ./bin/run'
 ironfish wallet:rescan --reset
